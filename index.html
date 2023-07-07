@@ -1,79 +1,52 @@
+<!DOCTYPE html>
 <html>
 <head>
-	<style>
-		body{
-			background: black;
-	display: flex;
-	justify-content:center;
-	align-items: center;
-	height: 100vh;
-
-}
-
-.box{
-	background: rgb(60, 0, 90);
-	font-size: 25px;
-	color: white;
-	height: 844px;
-	width: 390px;
-	border-radius: 10px;
-	flex-direction: column;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-
-}
-.buttons-container{
-	display: flex;
-	justify-content: space-around;
-	height: 50px;
-	width: 150px;
-
-}
-button{
-	font-size: 15px;
-	border-radius: 20px;
-}
-
-button{
-	height: 40px;
-	width: 50px;
-	background: white;
-	border-radius: 10px;
-	color: blue;
-	font-weight: 600;
-}
-	</style>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<script type="text/javascript" src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+	<title>portfolio</title>
 </head>
 <body>
-	<div class="box">
-		
-			<p>vamo da uma volta hoje?</p>
-		
-		<div class="buttons-container">
-			<button>
-				<a href="">sim</a>
-			</button>
-			<button id="no">nao</button>
+	<
+	<div class="background">
+		<header>
+			<div class="logo">
+				<i class="fa-regular fa-m"></i>
+			</div>
+			<div class="cabecalho-link">
+				
+					<li>
+						<a href="">Menu</a>
+					</li>
+					<li>
+						<a href="./abas/projetos.html" target="_blank">Projetos</a>
+					</li>
+					<li>
+						<a href="a">Serviços</a>
+					</li>
+					
+				
+				<a href="./abas/meu-contato/index.html" target="_blank"><button>Meu Contato</button></a>
+			</div>
+        </header>
+        <div class="container-text">
+        	<h1>
+        		Ola<br>
+        		Sou <span>Marcos Vinicius</span>
+        	</h1>
+
+         
+        </div>
+	<div>	
+    
+		<div class="redes-sociais">
+		 	<a href="https://www.instagram.com/mdk.vinicius/"><i class="fa-brands fa-instagram"></i></a>
+		 	<a href="https://wa.me/5518997751017"><i class="fa-brands fa-whatsapp"></i></a>
+		 	<a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
 		</div>
-	</div>
+    </div>   
 </body>
-<script>
-	
-let button = document.getElementById('no');
-	let height = window.innerHeight - 50;
-	let width = window.innerWidth - 50;
-
-
-
-	button.addEventListener('mouseover', function (){
-		button.style.position = "absolute";
-		button.style.top = Math.random() * height + "px";
-		button.syle.left = Math.random() * width + "px";
-
-	})
-	
-</script>
-
-
 </html>
+		
